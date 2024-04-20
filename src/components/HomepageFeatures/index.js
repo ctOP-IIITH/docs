@@ -9,29 +9,29 @@ const ResearchSvg = require('@site/static/img/undraw_docusaurus_react.svg').defa
 
 const FeatureList = [
   {
-    title: 'Navigate the Vindhya Maze',
+    title: 'oneM2M Standards',
     Svg: VindhyaSvg,
     description: (
       <>
-        Ever felt like Indiana Jones while trying to find a classroom in Vindhya? We've mapped out the shortcuts, secret passageways, and the best snack spots to fuel your adventure.
+        Based on the oneM2M standards, our platform provides a set of tools to help you manage your IOT devices and data in a secure and scalable way.
       </>
     ),
   },
   {
-    title: 'Decipher Advisor-Speak',
+    title: 'For Smart Cities',
     Svg: AdvisorSvg,
     description: (
       <>
-        Learning to understand your advisor can feel like decoding ancient hieroglyphs. Our guide turns their "suggestions" into actionable tasks, making your path clearer.
+        Our platform is designed to provide a oneM2M compliant interoperable platform for smart cities. It is a one-stop solution for all your IOT needs.
       </>
     ),
   },
   {
-    title: 'Research Made Less Daunting',
+    title: 'Research and Development',
     Svg: ResearchSvg,
     description: (
       <>
-        Diving into research can be as thrilling as exploring uncharted territories. We'll help you navigate through dense jungles of academic papers and discover treasures of knowledge.
+        Our platform is the result of years of research and development in the field of IOT and smart cities. It is designed to be scalable, secure, and easy to use.
       </>
     ),
   },

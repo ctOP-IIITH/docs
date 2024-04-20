@@ -17,13 +17,13 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p className="hero__description">
-          Embarking on your Dual Degree journey at IIITH is no small feat. It's chaotic, challenging, and sometimes downright confusing. But fear not, you're about to navigate this adventure with ease.
+          City IOT Operating Platform is a platform that provides a set of tools to help you manage your IOT devices and data in a secure and scalable way.
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Start Your Adventure - Dive in 🚀
+            Get Started
           </Link>
         </div>
       </div>

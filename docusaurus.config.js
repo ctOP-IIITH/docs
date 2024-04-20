@@ -8,20 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Your Guide to Mythical Graduation',
-  tagline: 'Welcome to IIITH',
+  title: 'City IOT Operating Platform',
+  tagline: 'A oneM2M compliant interoperable platform for smart cities',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://gg-iiith.vjspranav.dev/',
+  url: 'https://ctop-docs.vjspranav.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'vjspranav', // Usually your GitHub org/user name.
-  projectName: 'noobGuide-IIITH', // Usually your repo name.
+  organizationName: 'ctop-iiith', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -58,7 +58,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Noob Guide to IIITH',
+        title: 'City IOT Operating Platform',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -71,7 +71,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ctop-iiith/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -94,12 +94,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/vjspranav',
+                href: 'https://github.com/ctop-iiith/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} vjspranav. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SCRC. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
