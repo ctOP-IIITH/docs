@@ -32,7 +32,11 @@ const sidebars = {
     {
       type: "category",
       label: "Introduction",
-      items: ["introduction/introduction.md", "introduction/about-ctop", "introduction/about-iiith-scll"],
+      items: ["introduction/about-ctop", "introduction/about-iiith-scll"],
+      link: {
+        type: 'doc',
+        id: 'introduction/introduction', // path to the introduction.md file
+      },
     },
     {
       type: "category",
@@ -59,9 +63,7 @@ const sidebars = {
       type: "category",
       label: "Non-Functional Requirements (NFRS)",
       items: [
-        "non-functional-requirements/performance",
-        "non-functional-requirements/scalability",
-        "non-functional-requirements/security",
+        "non-functional-requirements/analysis",
       ],
     },
     {
@@ -94,7 +96,6 @@ const sidebars = {
       label: "API Documentation",
       items: [
         "api-documentation/api-overview",
-        "api-documentation/endpoint-descriptions",
       ],
     },
     {
@@ -112,8 +113,8 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Change Log",
-      items: ["change-log/version-history"],
+      label: "Changelog",
+      items: ["changelog/version-history"],
     },
     {
       type: "category",

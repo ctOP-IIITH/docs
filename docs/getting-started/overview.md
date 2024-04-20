@@ -1,5 +1,5 @@
 ---
-id: getting-started-overview
+id: overview
 title: Overview
 sidebar_position: 1
 ---
