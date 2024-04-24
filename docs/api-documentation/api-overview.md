@@ -1,9 +1,8 @@
 ---
 id: api-overview
-title: API Overview
-sidebar_position: 1
+title: Overview of the API
 ---
 
-# API Overview
+# Overview of the API
 
-This section introduces the ctOP API, including the base URL, authentication methods, and common response codes.
+Specific details will be provided in this section. For comprehensive API documentation, please visit [Official API docs](https://xapi-ctop.vjspranav.dev/redoc).

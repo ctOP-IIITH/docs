@@ -32,7 +32,7 @@ const sidebars = {
     {
       type: "category",
       label: "Introduction",
-      items: ["introduction/about-ctop", "introduction/about-iiith-scll"],
+      items: ["introduction/about-ctop", "introduction/smart-city-living-lab-iiith"],
       link: {
         type: 'doc',
         id: 'introduction/introduction', // path to the introduction.md file
@@ -51,21 +51,15 @@ const sidebars = {
         "architecture/component-details",
       ],
     },
-    {
-      type: "category",
-      label: "Functional Requirements (FRS)",
-      items: [
-        "functional-requirements/core-features",
-        "functional-requirements/user-scenarios",
-      ],
-    },
-    {
-      type: "category",
-      label: "Non-Functional Requirements (NFRS)",
-      items: [
-        "non-functional-requirements/analysis",
-      ],
-    },
+    'features',
+    'functional-requirements',
+    // {
+    //   type: "category",
+    //   label: "Non-Functional Requirements (NFRS)",
+    //   items: [
+    //     "non-functional-requirements/analysis",
+    //   ],
+    // },
     {
       type: "category",
       label: "Load Tests",
