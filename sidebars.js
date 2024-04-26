@@ -29,6 +29,7 @@ const sidebars = {
   ],
    */
   tutorialSidebar: [
+    'getting-started',
     {
       type: "category",
       label: "Introduction",
@@ -38,11 +39,11 @@ const sidebars = {
         id: 'introduction/introduction', // path to the introduction.md file
       },
     },
-    {
-      type: "category",
-      label: "Getting Started",
-      items: ["getting-started/overview", "getting-started/prerequisites"],
-    },
+    // {
+    //   type: "category",
+    //   label: "Getting Started",
+    //   items: ["getting-started/overview", "getting-started/prerequisites"],
+    // },
     {
       type: "category",
       label: "Architecture",
