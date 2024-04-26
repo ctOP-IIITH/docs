@@ -34,10 +34,6 @@ const sidebars = {
       type: "category",
       label: "Introduction",
       items: ["introduction/about-ctop", "introduction/smart-city-living-lab-iiith"],
-      link: {
-        type: 'doc',
-        id: 'introduction/introduction', // path to the introduction.md file
-      },
     },
     // {
     //   type: "category",
@@ -49,7 +45,7 @@ const sidebars = {
       label: "Architecture",
       items: [
         "architecture/high-level-architecture",
-        "architecture/component-details",
+        // "architecture/component-details",
       ],
     },
     'features',
@@ -61,22 +57,23 @@ const sidebars = {
     //     "non-functional-requirements/analysis",
     //   ],
     // },
-    {
-      type: "category",
-      label: "Load Tests",
-      items: [
-        "load-tests/test-environment-setup",
-        "load-tests/test-results-and-analysis",
-      ],
-    },
-    {
-      type: "category",
-      label: "Installation and Deployment",
-      items: [
-        "installation-deployment/installation-guide",
-        "installation-deployment/deployment-guide",
-      ],
-    },
+    // {
+    //   type: "category",
+    //   label: "Load Tests",
+    //   items: [
+    //     "load-tests/test-environment-setup",
+    //     "load-tests/test-results-and-analysis",
+    //   ],
+    // },
+    // {
+    //   type: "category",
+    //   label: "Installation and Deployment",
+    //   items: [
+    //     "installation-deployment/installation-guide",
+    //     "installation-deployment/deployment-guide",
+    //   ],
+    // },
+    'installation-deployment',
     {
       type: "category",
       label: "Development Guide",
